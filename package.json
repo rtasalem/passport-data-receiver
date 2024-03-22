@@ -1,0 +1,15 @@
+{
+  "name": "passport-data-receiver",
+  "version": "1.0.0",
+  "description": "Simple Node.js app that will receive mock passport data to a Service Bus queue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rana Salem ranatasalem@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/service-bus": "^7.9.4",
+    "dotenv": "^16.4.5"
+  }
+}

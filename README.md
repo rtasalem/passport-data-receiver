@@ -8,7 +8,7 @@ Simple Node.js application for receiving mock passport data from a Service Bus q
 ## Documentation
 Refer to the [documentation](https://github.com/rtasalem/passport-data-receiver/blob/main/docs/DOCS.md) for detailed notes on development.
 ## Getting Started
-Run the following command to receive messages from the Service Bus queue:
+Run the following command to receive messages from the Service Bus queue and send them to the topic:
 ```
 cd app & node index
 ```

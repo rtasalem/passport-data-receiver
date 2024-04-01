@@ -1,4 +1,4 @@
 require('dotenv').config({ path: '../.env' })
-const receiveFromQueue = require('./receive-from-queue')
+const receiveAndSendToTopic = require('./receive-and-send')
 
-receiveFromQueue()
+receiveAndSendToTopic()

@@ -28,7 +28,7 @@ const receiveAndSendToTopic = async () => {
       console.error(error)
     }
 
-    receiver.subscribe({
+    await receiver.subscribe({
       processMessage: handleMessage,
       processError: handleError
     })
